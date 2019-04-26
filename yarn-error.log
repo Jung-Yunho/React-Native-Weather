@@ -1,0 +1,43 @@
+Arguments: 
+  /usr/local/n/versions/node/11.10.1/bin/node /usr/local/bin/yarnpkg install
+
+PATH: 
+  /usr/local/n/versions/node/11.10.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  11.10.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, scandir '/Users/jeong-yunho/.config/yarn/link'
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "^32.0.0",
+      "react": "16.5.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "^5.0.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
